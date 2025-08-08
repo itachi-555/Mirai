@@ -1,8 +1,8 @@
 {
-  "server_ip": "192.168.0.162",
-  "server_port": 3000,
-  "device_type": "input",
-  "sample_rate": 16000,
-  "frame_duration_ms": 30,
-  "bytes_per_sample": 2
+  "SERVER_IP": "192.168.0.162",
+  "SERVER_PORT": 3000,
+  "DEVICE_TYPE": "input",
+  "SAMPLE_RATE": 16000,
+  "FRAME_DURATION_MS": 30,
+  "BYTES_PER_SAMPLE": 2
 }
