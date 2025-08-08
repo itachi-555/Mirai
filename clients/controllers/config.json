@@ -1,0 +1,8 @@
+{
+  "server_ip": "192.168.0.162",
+  "server_port": 3000,
+  "device_type": "input",
+  "sample_rate": 16000,
+  "frame_duration_ms": 30,
+  "bytes_per_sample": 2
+}
