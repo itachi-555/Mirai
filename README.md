@@ -121,8 +121,8 @@ Download the official Mirai controller clients for your platform:
 
 | Platform | Download Link   |
 | -------- | --------------- |
-| Linux    | [Coming Soon]() |
-| Windows  | [Coming Soon]() |
+| Linux    | [Download](https://github.com/itachi-555/Mirai/releases/download/v1.0.0/Mirai) |
+| Windows  | [Download](https://github.com/itachi-555/Mirai/releases/download/v1.0.0/Mirai.exe) |
 | Android  | [Coming Soon]() |
 
 > These clients stream your microphone audio to the server in real time.
