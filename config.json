@@ -1,0 +1,35 @@
+{
+  "HOST": "0.0.0.0",
+  "PORT": 3000,
+
+  "RAW_FILE": "audio.raw",
+  "WAV_FILE": "audio.wav",
+
+  "VAD_STREAM_FILE": "py/vad_stream.py",
+  "VOSK_RECOGNIZER_FILE": "py/vosk_recognizer.py",
+
+  "VOSK_MODEL_PATH": "model",
+  "PYTHON_PATH": "python3",
+  "FFMPEG_PATH": "ffmpeg",
+
+  "PRE_SPEECH_SECONDS": 2,
+  "SAMPLE_RATE": 16000,
+  "FRAME_DURATION_MS": 30,
+  "BYTES_PER_SAMPLE": 2,
+  "RING_BUFFER_SIZE": 10,
+  "VAD_MODE": 3,
+  "SPEECH_START_THRESHOLD": 0.6,
+  "SPEECH_END_THRESHOLD": 0.3,
+
+  "WAKE_WORD": "mirai",
+  "COMMANDS": [
+    ["window", ["open", "close"]],
+    ["lights", ["on", "off"], ["one", "two", "three"]],
+    ["car", ["position", "on", "off"], ["one", "two", "three"]],
+    ["door", ["open", "close"]],
+    ["camera", ["on", "off"], ["one", "two", "three"]],
+    ["tv", ["on", "off"]],
+    ["console", ["on", "off"]],
+    ["pc", ["on", "off"], ["one", "two", "three"]]
+  ]
+}
