@@ -1,0 +1,21 @@
+# === Node.js ===
+node_modules/
+package-lock.json.lock
+
+# === Python ===
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# === Vosk Model ===
+model/
+vosk-model*/  
+
+# === Audio Files ===
+*.wav
+*.raw
+
+# === Environment Config ===
+.env
+
