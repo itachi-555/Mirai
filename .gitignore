@@ -19,3 +19,5 @@ vosk-model*/
 # === Environment Config ===
 .env
 
+# === Clients Local Config ===
+clients/controllers/pc/*/config.json
