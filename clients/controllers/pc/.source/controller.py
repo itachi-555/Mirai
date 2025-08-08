@@ -24,14 +24,18 @@ def load_config():
 
 config = load_config()
 
+# --- SOCKET CONSTANTS ---
+SERVER_IP = config.get("SERVER_IP","0.0.0.0")
+SERVER_PORT = config.get("SERVER_PORT",3000)
+DEVICE_TYPE = config.get("DEVICE_TYPE","input")
 # --- AUDIO CONSTANTS ---
 SAMPLE_RATE = config.get("SAMPLE_RATE", 16000)
 FRAME_DURATION_MS = config.get("FRAME_DURATION_MS", 30)
 FRAME_SIZE = int(SAMPLE_RATE * FRAME_DURATION_MS / 1000)
-BYTES_PER_SAMPLE = 2
+BYTES_PER_SAMPLE = config.get("BYTES_PER_SAMPLE",2)
 CHUNK = FRAME_SIZE * BYTES_PER_SAMPLE
 
-WS_URI = config.get("WS_URI", "ws://localhost:3000?device=input")
+WS_URI = config.get("WS_URI", f"ws://{SERVER_IP}:{SERVER_PORT}?device={DEVICE_TYPE}")
 
 # --- CLEAN EXIT SUPPORT ---
 should_exit = False
