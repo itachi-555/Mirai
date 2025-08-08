@@ -4,7 +4,6 @@ Welcome to **Mirai**, a futuristic smart room project that lets you control your
 
 > "Speak it, and it shall happen."
 
----
 
 ## 🚀 Features
 
@@ -14,7 +13,6 @@ Welcome to **Mirai**, a futuristic smart room project that lets you control your
 * 🔌 Multi-Device Support (Lights, TV, Windows, Doors, and more)
 * 🌐 Web Interface for Manual Control + Blog/Fandom Pages
 
----
 
 ## 🗂️ Project Structure
 
@@ -32,7 +30,6 @@ mirai/
 └── README.md              # This file
 ```
 
----
 
 ## 📦 Command Structure
 
@@ -53,7 +50,6 @@ root ("mirai")
 
 This turns on the second light.
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -118,7 +114,6 @@ npm install
 node server.js
 ```
 
----
 
 ## 📲 Controller Apps
 
@@ -132,7 +127,6 @@ Download the official Mirai controller clients for your platform:
 
 > These clients stream your microphone audio to the server in real time.
 
----
 
 ## 💡 Controlled Devices
 
@@ -145,7 +139,6 @@ These will be stored under `clients/devices/` and include:
 
 (More coming soon)
 
----
 
 ## 🌐 Web UI & Blog
 
@@ -154,7 +147,6 @@ Available under `/public`:
 * 🎛️ Manual input control UI (buttons, sliders, toggles)
 * 📝 A personal blog/fandom page (about the room, hobbies, and more)
 
----
 
 ## 📌 Notes
 
@@ -162,18 +154,15 @@ Available under `/public`:
 * If Vosk gives model loading errors, make sure the path is correct and the model is extracted properly.
 * You can change the server port and other params in `config.json`
 
----
 
 ## 🧠 About the Project
 
 Mirai was built as a passion project to bring voice-controlled environments to life. Combining tech, art, and a bit of sci-fi flair, it's designed to reflect a personal vision of the future.
 
----
 
 ## 📬 Feedback & Contributions
 
 Want to contribute or suggest features? Open a pull request or issue on GitHub.
 
----
 
 **Made with 💡 by Younes**
