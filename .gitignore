@@ -18,6 +18,7 @@ vosk-model*/
 
 # === Environment Config ===
 .env
+.vscode
 
 # === Clients Local Config ===
 clients/controllers/pc/*/config.json
